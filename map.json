@@ -15,6 +15,12 @@
          "id":10,
          "name":"jitsi_bierjungentisch",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"bierjungentisch"
+                }],
          "type":"tilelayer",
          "visible":false,
          "width":100,
@@ -27,8 +33,14 @@
          "id":11,
          "name":"jitsi_sofaecke",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"sofaecke"
+                }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -88,7 +100,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":100,
          "x":0,
          "y":0
@@ -100,7 +112,7 @@
          "name":"blocks",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":100,
          "x":0,
          "y":0
@@ -124,7 +136,7 @@
          "name":"objekte",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":100,
          "x":0,
          "y":0
